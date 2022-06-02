@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="sidao.css">
+        <title>Trabalho de Fisica</title>
+    </head>
+    <body>
+        <header>
+            <h1>Trabalho de Fisica</h1>
+        </header>
+        <main> 
+            <p>
+                <a href="index.html"><button id ="botao">Hora de Morfar</button></a>
+            </p>
+            <p id="enunciado">
+                Determine a potencia Irradiada “P” em W por emissão térmica de 
+                uma esfera com raio igual a “R”, que apresenta um 
+                emissividade “E” com uma temperatura TA, quando colocada num 
+                ambiente com temperatura “TB” ( Onde TA > TB e são dados na escala 
+                Kelvin)A área de uma esfera é dados por A = 4π. R²
+            </p>
+            <section id="calculo">
+                <h2>Hora do calculo filho da puta!</h2>
+                <label for="raio">Raio da esfera: </label>
+                <input type="number" id="raio" name="raio">   
+                <br>
+                
+                <label for="emi">Emissividade: </label>
+                <input type="number" id="emi" name="raio">   
+                <br>
+
+                <label for="temperaturaA">Temperatura A(Em Kelvin): </label>
+                <input type="number" id="ta" name="temperaturaA">
+                <br>
+
+                <label for="temperaturaB">Temperatura B(Em Kelvin): </label>
+                <input type="number" id="tb" name="temperaturaB">
+                <br>
+                <button class="botaoRGB" id="calcular">Calcular</button>
+
+                <h2 id="areaResultado"></h2>
+            </section>
+           
+
+        </main>
+
+
+  
+    </body>
+
+    <footer>
+        <h3>Desenvolvido em 2022 </h3>
+
+        <p>By: Gabriel Barbosa, Henrique Barsante, João Gabriel Gomes, Diego Pereira.</p>
+    </footer>
+    <script src="script.js"></script>
+</html>
